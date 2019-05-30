@@ -1,0 +1,23 @@
+{
+  "name": "comp-2068-lab1",
+  "version": "1.0.0",
+  "description": "This is lab 1 of JavaScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tejaspatel01/COMP-2068-Lab1.git"
+  },
+  "author": "Tejas and Group",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tejaspatel01/COMP-2068-Lab1/issues"
+  },
+  "homepage": "https://github.com/Tejaspatel01/COMP-2068-Lab1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -21,4 +21,5 @@ app.get('/contact', (req, res) => {
     res.send(`You can contact us by our student email or slack.`);
 });
 
-app.listen(880, () =>  console.log('Listining on port 880'));
+const port = process.env.PORT || 880;
+app.listen(port, () =>  console.log(`Listining on port ${port}`));
